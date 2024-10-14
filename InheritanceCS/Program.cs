@@ -10,6 +10,7 @@ namespace InheritanceCS
 	{
 		static void Main(string[] args)
 		{
+
 		}
 	}
 }
