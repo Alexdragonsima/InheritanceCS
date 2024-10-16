@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Academy
 {
+	
 	internal class Program
 	{
 		static void Main(string[] args)
@@ -44,8 +45,8 @@ namespace Academy
 					new Student ("Vercetti","Tommy",  30, "Thieft",        "Vice",   95,  98),
 					new Teacher ("Diaz",    "Ricardo",50, "Weapons distribution",         20)
 				};
-			Print(group);
-			Save(group, "group.txt");
+			Streamer.Print(group);
+			Streamer.Save(group, "group.txt");
 			//StreamWriter sw = new StreamWriter("File.txt");
 			//sw.WriteLine("Hello Files");
 			//sw.Close();
@@ -54,24 +55,5 @@ namespace Academy
 			//sw.Close();
 			//Process.Start("notepad", "File.txt");
 		}
-		static void Print(Human[] group)
-		{
-			for (int i = 0; i < group.Length; i++)
-			{
-				Console.WriteLine(group[i]);
-			}
-			Console.WriteLine();
-		}
-		static void Save(Human[] group,string filename)
-		{
-			StreamWriter sw = new StreamWriter(filename);
-			for (int i = 0; i < group.Length; i++)
-			{
-				sw.WriteLine(group[i]);
-			}
-			sw.Close();
-			Process.Start("notepad", filename);
-		}
-
 	}
 }
