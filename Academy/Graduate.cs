@@ -32,7 +32,7 @@ namespace Academy
 		}
 		public override string ToFileString()
 		{
-			return base.ToFileString() + $",{Subject}";
+			return base.ToFileString() + $";{Subject}";
 		}
 	}
 }
