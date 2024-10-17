@@ -1,4 +1,6 @@
 ﻿//#define INHERITANCE_CHECK
+//#define SAVE_CHEACK
+#define LOAD_CHEACK
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -36,6 +38,7 @@ namespace Academy
 			Console.WriteLine(graduate);
 			Console.WriteLine("------------------------------------------------------------");
 #endif
+#if SAVE_CHEACK
 
 			Human[] group = new Human[]
 				{
@@ -53,7 +56,12 @@ namespace Academy
 			//StreamWriter sw = File.AppendText("File.txt");y
 			//sw.WriteLine();
 			//sw.Close();
-			//Process.Start("notepad", "File.txt");
+			//Process.Start("notepad", "File.txt");  
+#endif
+#if LOAD_CHEACK
+			Human[] group = Streamer.Load("group.csv");
+			Streamer.Print(group);	
+#endif
 		}
 	}
 }
