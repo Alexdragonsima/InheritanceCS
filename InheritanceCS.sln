@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academy", "Academy\Academy.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files", "Files\Files.csproj", "{4C829B4D-8B53-48AA-AD07-C2228E937350}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractBaseClass", "AbstructBaseClass\AbstractBaseClass.csproj", "{497C8B60-A35A-4449-B8C1-C59934455AC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractGeometry", "AbstractGeometry\AbstractGeometry.csproj", "{D76A95FC-54E1-4C2D-B0BB-E69B42DBBE33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{4C829B4D-8B53-48AA-AD07-C2228E937350}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C829B4D-8B53-48AA-AD07-C2228E937350}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C829B4D-8B53-48AA-AD07-C2228E937350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497C8B60-A35A-4449-B8C1-C59934455AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497C8B60-A35A-4449-B8C1-C59934455AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497C8B60-A35A-4449-B8C1-C59934455AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497C8B60-A35A-4449-B8C1-C59934455AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D76A95FC-54E1-4C2D-B0BB-E69B42DBBE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76A95FC-54E1-4C2D-B0BB-E69B42DBBE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76A95FC-54E1-4C2D-B0BB-E69B42DBBE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76A95FC-54E1-4C2D-B0BB-E69B42DBBE33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
